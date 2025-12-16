@@ -23,43 +23,46 @@ both before and after class balancing using SMOTE-ENN.
 
 These visualizations support the interpretability analysis presented
 in Section 4 (Results and Discussion) of the main manuscript.
+----
 
 ## SHAP Analysis – Pima Indian Diabetes
+----
 
-*Classical k-NN
+Classical k-NN
 <div style="display:flex; gap:20px;">
   <img src="SHAP KNN_Balancing_PIMA Indian.png" width="48%">
   <img src="SHAP KNN_Imbalance_PIMA Indian.png" width="48%">
 </div>
 
 **Left:** Classical k-NN Imbalance &nbsp;&nbsp; **Right:** Classical k-NN Balancing
-----
 
-*Quantum KNN
+Quantum KNN
 <div style="display:flex; gap:20px;">
   <img src="SHAP QKNN_Balancing_PIMA Indian.png" width="48%">
   <img src="SHAP QKNN_Imbalance_PIMA Indian.png" width="48%">
 </div>
 
 **Left:** QKNN Imbalance &nbsp;&nbsp; **Right:** QKNN Balancing
+
+
+----
+## SHAP Analysis – Liver
 ----
 
-## SHAP Analysis – Liver
-
-*Classical k-NN
+Classical k-NN
 <div style="display:flex; gap:20px;">
   <img src="SHAP KNN_Balancing_Liver.png" width="48%">
   <img src="SHAP KNN_Imbalance_Liver.png" width="48%">
 </div>
 
 **Left:** Classical k-NN Imbalance &nbsp;&nbsp; **Right:** Classical k-NN Balancing
-----
 
-*Quantum KNN
+
+Quantum KNN
 <div style="display:flex; gap:20px;">
   <img src="SHAP QKNN_Balancing_Liver.png" width="48%">
   <img src="SHAP QKNN_Imbalance_Liver.png" width="48%">
 </div>
 
 **Left:** QKNN Imbalance &nbsp;&nbsp; **Right:** QKNN Balancing
-----
+
