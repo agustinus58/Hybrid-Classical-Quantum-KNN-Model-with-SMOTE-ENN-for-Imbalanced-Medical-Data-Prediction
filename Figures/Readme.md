@@ -4,7 +4,7 @@
 
 <div style="width: 48%;">
 <b>(a) Imbalanced Data</b><br>
-<img src="figures/BreastCancer_Imbalance.png" width="100%">
+<img src="BreastCancer_Imbalance.png" width="100%">
 </div>
 
 <div style="width: 48%;">
