@@ -32,3 +32,10 @@ in Section 4 (Results and Discussion) of the main manuscript.
 </div>
 
 **Left:** Classical k-NN Imbalance &nbsp;&nbsp; **Right:** Classical k-NN Balancing
+
+<div style="display:flex; gap:20px;">
+  <img src="SHAP QKNN_Balancing_PIMA Indian.png" width="48%">
+  <img src="SHAP QKNN_Imbalance_PIMA Indian.png" width="48%">
+</div>
+
+**Left:** QKNN Imbalance &nbsp;&nbsp; **Right:** QKNN Balancing
