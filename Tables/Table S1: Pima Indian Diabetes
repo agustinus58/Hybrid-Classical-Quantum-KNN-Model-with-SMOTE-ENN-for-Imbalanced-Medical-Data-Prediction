@@ -1,1 +1,124 @@
+# Table S1. Performance Comparison on Pima Indian Diabetes Dataset
+
+This table reports the classification performance of Classical k-NN (KNN) and Quantum k-NN (QKNN)
+under different distance metrics and neighborhood sizes (k = 3, 5, 7) on the Pima Indian Diabetes dataset.
+Results are shown for the original imbalanced data and after applying SMOTE-ENN.
+
+---
+
+## A. Before Balancing (Imbalanced Data)
+
+### Classical k-NN (KNN)
+
+| Distance Metric | k | Accuracy | Precision | Recall | F1-score |
+|-----------------|---|----------|-----------|--------|----------|
+| Euclidean | 3 | 0.83 | 0.87 | 0.87 | 0.87 |
+| Euclidean | 5 | 0.83 | 0.87 | 0.88 | 0.87 |
+| Euclidean | 7 | 0.84 | 0.86 | 0.90 | 0.88 |
+| Manhattan | 3 | 0.83 | 0.86 | 0.88 | 0.87 |
+| Manhattan | 5 | 0.84 | 0.87 | 0.89 | 0.88 |
+| Manhattan | 7 | 0.85 | 0.87 | 0.91 | 0.89 |
+| Canberra | 3 | 0.82 | 0.85 | 0.89 | 0.87 |
+| Canberra | 5 | 0.83 | 0.86 | 0.89 | 0.87 |
+| Canberra | 7 | 0.83 | 0.85 | 0.90 | 0.87 |
+| Chebyshev | 3 | 0.81 | 0.86 | 0.86 | 0.86 |
+| Chebyshev | 5 | 0.84 | 0.87 | 0.89 | 0.88 |
+| Chebyshev | 7 | 0.84 | 0.86 | 0.90 | 0.88 |
+| Chi-square | 3 | 0.52 | 0.63 | 0.68 | 0.65 |
+| Chi-square | 5 | 0.53 | 0.63 | 0.73 | 0.68 |
+| Chi-square | 7 | 0.87 | 0.90 | 0.92 | 0.91 |
+| Mahalanobis | 3 | 0.83 | 0.86 | 0.89 | 0.88 |
+| Mahalanobis | 5 | 0.84 | 0.87 | 0.90 | 0.88 |
+| Mahalanobis | 7 | 0.84 | 0.86 | 0.91 | 0.88 |
+| Polar Distance | 3 | 0.84 | 0.88 | 0.87 | 0.88 |
+| Polar Distance | 5 | 0.85 | 0.88 | 0.89 | 0.89 |
+| Polar Distance | 7 | 0.85 | 0.89 | 0.88 | 0.89 |
+
+---
+
+### Quantum k-NN (QKNN)
+
+| Distance Metric | k | Accuracy | Precision | Recall | F1-score |
+|-----------------|---|----------|-----------|--------|----------|
+| Euclidean | 3 | 0.83 | 0.87 | 0.87 | 0.87 |
+| Euclidean | 5 | 0.83 | 0.87 | 0.88 | 0.87 |
+| Euclidean | 7 | 0.83 | 0.86 | 0.90 | 0.88 |
+| Manhattan | 3 | 0.83 | 0.87 | 0.88 | 0.88 |
+| Manhattan | 5 | 0.84 | 0.87 | 0.89 | 0.88 |
+| Manhattan | 7 | 0.85 | 0.87 | 0.91 | 0.89 |
+| Canberra | 3 | 0.82 | 0.85 | 0.88 | 0.86 |
+| Canberra | 5 | 0.84 | 0.88 | 0.89 | 0.89 |
+| Canberra | 7 | 0.84 | 0.87 | 0.90 | 0.88 |
+| Chebyshev | 3 | 0.82 | 0.86 | 0.87 | 0.87 |
+| Chebyshev | 5 | 0.83 | 0.87 | 0.89 | 0.88 |
+| Chebyshev | 7 | 0.84 | 0.87 | 0.90 | 0.88 |
+| Chi-square | 3 | 0.52 | 0.63 | 0.68 | 0.65 |
+| Chi-square | 5 | 0.53 | 0.63 | 0.73 | 0.68 |
+| Chi-square | 7 | 0.55 | 0.64 | 0.76 | 0.69 |
+| Mahalanobis | 3 | 0.83 | 0.86 | 0.89 | 0.87 |
+| Mahalanobis | 5 | 0.83 | 0.87 | 0.89 | 0.88 |
+| Mahalanobis | 7 | 0.85 | 0.87 | 0.91 | 0.89 |
+| Polar Distance | 3 | 0.83 | 0.88 | 0.88 | 0.88 |
+| Polar Distance | 5 | 0.84 | 0.88 | 0.89 | 0.89 |
+| Polar Distance | 7 | 0.84 | 0.87 | 0.89 | 0.88 |
+
+---
+
+## B. After Balancing (SMOTE-ENN)
+
+### Classical k-NN (KNN)
+
+| Distance Metric | k | Accuracy | Precision | Recall | F1-score |
+|-----------------|---|----------|-----------|--------|----------|
+| Euclidean | 3 | 0.98 | 1.00 | 0.97 | 0.98 |
+| Euclidean | 5 | 0.98 | 0.99 | 0.96 | 0.97 |
+| Euclidean | 7 | 0.97 | 0.99 | 0.95 | 0.97 |
+| Manhattan | 3 | 0.99 | 1.00 | 0.97 | 0.98 |
+| Manhattan | 5 | 0.98 | 1.00 | 0.97 | 0.98 |
+| Manhattan | 7 | 0.98 | 1.00 | 0.96 | 0.98 |
+| Canberra | 3 | 0.95 | 1.00 | 0.91 | 0.95 |
+| Canberra | 5 | 0.95 | 0.96 | 0.92 | 0.94 |
+| Canberra | 7 | 0.94 | 0.96 | 0.91 | 0.93 |
+| Chebyshev | 3 | 0.98 | 0.99 | 0.96 | 0.98 |
+| Chebyshev | 5 | 0.97 | 0.99 | 0.94 | 0.97 |
+| Chebyshev | 7 | 0.97 | 0.99 | 0.94 | 0.97 |
+| Chi-square | 3 | 0.30 | 0.30 | 0.35 | 0.32 |
+| Chi-square | 5 | 0.26 | 0.27 | 0.31 | 0.29 |
+| Chi-square | 7 | 0.22 | 0.22 | 0.25 | 0.23 |
+| Mahalanobis | 3 | 0.98 | 1.00 | 0.95 | 0.97 |
+| Mahalanobis | 5 | 0.97 | 0.99 | 0.95 | 0.97 |
+| Mahalanobis | 7 | 0.97 | 0.98 | 0.96 | 0.97 |
+| Polar Distance | 3 | 0.98 | 0.99 | 0.96 | 0.97 |
+| Polar Distance | 5 | 0.97 | 0.97 | 0.96 | 0.96 |
+| Polar Distance | 7 | 0.97 | 0.98 | 0.96 | 0.97 |
+
+---
+
+### Quantum k-NN (QKNN)
+
+| Distance Metric | k | Accuracy | Precision | Recall | F1-score |
+|-----------------|---|----------|-----------|--------|----------|
+| Euclidean | 3 | 0.98 | 1.00 | 0.97 | 0.98 |
+| Euclidean | 5 | 0.98 | 0.99 | 0.96 | 0.97 |
+| Euclidean | 7 | 0.97 | 0.99 | 0.95 | 0.97 |
+| Manhattan | 3 | 0.99 | 1.00 | 0.97 | 0.99 |
+| Manhattan | 5 | 0.98 | 1.00 | 0.97 | 0.98 |
+| Manhattan | 7 | 0.98 | 1.00 | 0.96 | 0.98 |
+| Canberra | 3 | 0.96 | 1.00 | 0.93 | 0.96 |
+| Canberra | 5 | 0.96 | 0.98 | 0.94 | 0.96 |
+| Canberra | 7 | 0.96 | 0.98 | 0.94 | 0.96 |
+| Chebyshev | 3 | 0.98 | 1.00 | 0.96 | 0.98 |
+| Chebyshev | 5 | 0.97 | 0.99 | 0.95 | 0.97 |
+| Chebyshev | 7 | 0.98 | 0.99 | 0.96 | 0.98 |
+| Chi-square | 3 | 0.30 | 0.30 | 0.35 | 0.32 |
+| Chi-square | 5 | 0.26 | 0.27 | 0.31 | 0.29 |
+| Chi-square | 7 | 0.22 | 0.22 | 0.25 | 0.23 |
+| Mahalanobis | 3 | 0.98 | 1.00 | 0.96 | 0.98 |
+| Mahalanobis | 5 | 0.98 | 0.99 | 0.96 | 0.98 |
+| Mahalanobis | 7 | 0.97 | 0.98 | 0.95 | 0.97 |
+| Polar Distance | 3 | 0.98 | 1.00 | 0.97 | 0.98 |
+| Polar Distance | 5 | 0.97 | 0.99 | 0.94 | 0.97 |
+| Polar Distance | 7 | 0.98 | 0.99 | 0.96 | 0.98 |
+
+---
 
