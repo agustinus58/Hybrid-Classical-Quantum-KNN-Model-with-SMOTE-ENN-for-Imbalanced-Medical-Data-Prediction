@@ -1,1 +1,3 @@
+1. Deskripsi Singkat
 
+Repositori ini berisi implementasi dan eksperimen Classical k-Nearest Neighbor (k-NN) dan Quantum k-Nearest Neighbor (QKNN) berbasis SWAP-Test untuk klasifikasi data medis. Penelitian ini mengusulkan pipeline pemrosesan data terintegrasi yang mengombinasikan PCA, SMOTE-ENN, serta analisis multi-distance, dan dievaluasi menggunakan K-Fold Cross-Validation.
