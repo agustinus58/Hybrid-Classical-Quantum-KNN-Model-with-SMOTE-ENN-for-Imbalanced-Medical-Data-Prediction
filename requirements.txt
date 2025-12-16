@@ -1,0 +1,39 @@
+# =========================
+# Core Scientific Libraries
+# =========================
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+
+# =========================
+# Machine Learning
+# =========================
+scikit-learn==1.2.2
+imbalanced-learn==0.10.1
+
+# =========================
+# Visualization
+# =========================
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# =========================
+# Interpretability
+# =========================
+shap==0.42.1
+
+# =========================
+# Quantum Computing
+# =========================
+pennylane==0.32.0
+pennylane-lightning==0.32.0
+
+# (Optional) Qiskit backend
+qiskit==0.44.1
+qiskit-aer==0.12.2
+
+# =========================
+# Utilities
+# =========================
+tqdm==4.66.1
+joblib==1.3.2
