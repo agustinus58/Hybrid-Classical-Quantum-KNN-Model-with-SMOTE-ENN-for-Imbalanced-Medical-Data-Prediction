@@ -23,3 +23,12 @@ both before and after class balancing using SMOTE-ENN.
 
 These visualizations support the interpretability analysis presented
 in Section 4 (Results and Discussion) of the main manuscript.
+
+## SHAP Analysis – Pima Indian Diabetes
+
+<div style="display:flex; gap:20px;">
+  <img src="shap_results/SHAP KNN_Balancing_PIMA Indian.png" width="48%">
+  <img src="shap_results/PSHAP KNN_Imbalance_PIMA Indian.png" width="48%">
+</div>
+
+**Left:** Classical k-NN &nbsp;&nbsp; **Right:** Quantum k-NN (QKNN)
