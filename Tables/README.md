@@ -504,3 +504,4 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 7 | 0.99 | 0.99 | **1.00** | **0.99** |
 
 ---
+
