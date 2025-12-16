@@ -10,6 +10,5 @@ Repositori ini berisi implementasi dan eksperimen Classical k-Nearest Neighbor (
   
 - Disarankan membuat virtual environment:
 
-  conda create -n qknn python=3.8.10
-  conda activate qknn
+  conda create "venv" -n qknn python=3.8.10 conda activate qknn
 
