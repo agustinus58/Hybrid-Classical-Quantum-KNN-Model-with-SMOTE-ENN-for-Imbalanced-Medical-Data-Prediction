@@ -310,7 +310,6 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.83 | 0.89 | **1.00** | **0.94** |
 | Polar Distance | 7 | 0.76 | 0.85 | **1.00** | **0.92** |
 
----
 
 ### Quantum k-NN (QKNN)
 
@@ -337,6 +336,11 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 3 | 0.83 | 0.88 | **0.96** | **0.92** |
 | Polar Distance | 5 | 0.85 | 0.90 | **0.98** | **0.94** |
 | Polar Distance | 7 | 0.82 | 0.87 | **1.00** | **0.93** |
+
+<div style="margin-top:10px;">
+<img src="Obesity_PreformanceModel_Imbalance.png" width="80%">
+</div>
+
 
 ---
 
@@ -368,7 +372,6 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.95 | 0.95 | **1.00** | **0.97** |
 | Polar Distance | 7 | 0.95 | 0.95 | **1.00** | **0.97** |
 
----
 
 ### Quantum k-NN (QKNN)
 
@@ -395,6 +398,11 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 3 | 0.96 | 0.95 | **1.00** | **0.97** |
 | Polar Distance | 5 | 0.97 | 0.97 | **1.00** | **0.99** |
 | Polar Distance | 7 | 0.97 | 0.97 | **1.00** | **0.99** |
+
+<div style="margin-top:10px;">
+<img src="Obesity_PreformanceModel_Balancing.png" width="80%">
+</div>
+
 
 ---
 
