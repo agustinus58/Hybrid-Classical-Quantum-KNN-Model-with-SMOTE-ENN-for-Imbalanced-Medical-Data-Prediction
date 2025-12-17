@@ -180,7 +180,6 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.63 | 0.69 | **0.72** | **0.71** |
 | Polar Distance | 7 | 0.61 | 0.68 | **0.71** | **0.69** |
 
----
 
 ### Quantum k-NN (QKNN)
 
@@ -242,7 +241,6 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.97 | 0.97 | **0.96** | **0.96** |
 | Polar Distance | 7 | 0.81 | 0.80 | **0.70** | **0.74** |
 
----
 
 ### Quantum k-NN (QKNN)
 
