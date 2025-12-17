@@ -445,7 +445,6 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.94 | 0.90 | **0.86** | **0.88** |
 | Polar Distance | 7 | 0.94 | 0.87 | **0.92** | **0.89** |
 
----
 
 ### Quantum k-NN (QKNN)
 
@@ -472,6 +471,10 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 3 | 0.94 | 0.90 | **0.86** | **0.88** |
 | Polar Distance | 5 | 0.94 | 0.90 | **0.86** | **0.88** |
 | Polar Distance | 7 | 0.94 | 0.90 | **0.84** | **0.87** |
+
+<div style="margin-top:10px;">
+<img src="BreastCancer_PreformanceModel_Imbalance.png" width="80%">
+</div>
 
 ---
 
@@ -503,7 +506,6 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.98 | 0.96 | **1.00** | **0.98** |
 | Polar Distance | 7 | 0.97 | 0.95 | **1.00** | **0.97** |
 
----
 
 ### Quantum k-NN (QKNN)
 
@@ -531,5 +533,9 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.99 | 0.99 | **1.00** | **0.99** |
 | Polar Distance | 7 | 0.99 | 0.99 | **1.00** | **0.99** |
 
+<div style="margin-top:10px;">
+<img src="BreastCancer_PreformanceModel_Balancing.png" width="80%">
+</div
+  
 ---
 
