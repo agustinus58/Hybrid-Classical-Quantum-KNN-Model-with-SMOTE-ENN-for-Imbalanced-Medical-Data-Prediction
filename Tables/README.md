@@ -77,6 +77,11 @@ Results are shown for the imbalanced data and after SMOTE-ENN.
 | Polar Distance | 5 | 0.84 | 0.88 | **0.89** | **0.89** |
 | Polar Distance | 7 | 0.84 | 0.87 | **0.89** | **0.88** |
 
+<div style="margin-top:10px;">
+<img src="PIMA Indian_PreformanceModel_Imbalance.png" width="80%">
+</div>
+
+
 ---
 
 ## B. After Balancing (SMOTE-ENN)
