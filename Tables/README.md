@@ -25,10 +25,7 @@ Results are shown for the imbalanced data and after SMOTE-ENN.
 
 ## A. Before Balancing (Imbalanced Data)
 
-<div style="display:flex; gap:24px; align-items:flex-start;">
-
-<!-- ================= KNN ================= -->
-<div style="width:50%;">
+## A. Before Balancing (Imbalanced Data)
 
 ### Classical k-NN (KNN)
 
@@ -56,11 +53,6 @@ Results are shown for the imbalanced data and after SMOTE-ENN.
 | Polar Distance | 5 | 0.85 | 0.88 | **0.89** | **0.89** |
 | Polar Distance | 7 | 0.85 | 0.89 | **0.88** | **0.89** |
 
-</div>
-
-<!-- ================= QKNN ================= -->
-<div style="width:50%;">
-
 ### Quantum k-NN (QKNN)
 
 | Distance | k | Acc | Prec | **Rec** | **F1** |
@@ -85,12 +77,7 @@ Results are shown for the imbalanced data and after SMOTE-ENN.
 | Mahalanobis | 7 | 0.85 | 0.87 | **0.91** | **0.89** |
 | Polar Distance | 3 | 0.83 | 0.88 | **0.88** | **0.88** |
 | Polar Distance | 5 | 0.84 | 0.88 | **0.89** | **0.89** |
-| Polar Distance | 7 | 0.84 | 0.87 | **0.89** | **0.88** |
-
-</div>
-
-</div>
-
+| Polar Distance | 7 | 0.84 | 0.87 | **0.89** | **0.88** |>
 
 <div style="margin-top:10px;">
 <img src="PIMA Indian_PreformanceModel_Imbalance.png" width="80%">
