@@ -138,6 +138,12 @@ Results are shown for the imbalanced data and after SMOTE-ENN.
 | Polar Distance | 5 | 0.97 | 0.99 | **0.94** | **0.97** |
 | Polar Distance | 7 | 0.98 | 0.99 | **0.96** | **0.98** |
 
+<div style="margin-top:10px;">
+<img src="PIMA Indian_PreformanceModel_Balancing.png" width="80%">
+</div>
+
+----
+
 # Table S2. Performance Comparison on Liver Disease Dataset
 
 This table reports Accuracy (Acc), Precision (Prec), Recall (Rec), and F1-score (F1)
