@@ -208,6 +208,10 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.60 | 0.67 | **0.69** | **0.68** |
 | Polar Distance | 7 | 0.59 | 0.66 | **0.71** | **0.68** |
 
+<div style="margin-top:10px;">
+<img src="Liver_PreformanceModel_Imbalance.png" width="80%">
+</div>
+
 ---
 
 ## B. After Balancing (SMOTE-ENN)
@@ -266,6 +270,11 @@ Results are presented for the original imbalanced data and after applying SMOTE-
 | Polar Distance | 5 | 0.97 | 0.99 | **0.94** | **0.97** |
 | Polar Distance | 7 | 0.81 | 0.80 | **0.70** | **0.74** |
 
+<div style="margin-top:10px;">
+<img src="Liver_PreformanceModel_Balancing.png" width="80%">
+</div>
+
+----
 
 # Table S3. Performance Comparison on Obesity Dataset
 
