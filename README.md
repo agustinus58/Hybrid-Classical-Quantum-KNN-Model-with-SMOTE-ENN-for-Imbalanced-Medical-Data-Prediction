@@ -1,4 +1,4 @@
-# Comparative Evaluation of Quantum-Enhanced and Classical k-Nearest Neighbor for Imbalanced Medical Data Classification
+# Hybrid Classical–Quantum KNN Model with SMOTE-ENN for Imbalanced Medical Data Prediction
 This repository contains implementations and experiments of Classical k-Nearest Neighbor (k-NN) and Quantum k-Nearest Neighbor (QKNN) based on the SWAP test for medical data classification. This study proposes an integrated data processing pipeline that combines Principal Component Analysis (PCA), SMOTE-ENN, and multi-distance analysis, and is evaluated using K-Fold Cross-Validation
 
 ## Prasyarat
